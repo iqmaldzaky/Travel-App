@@ -22,7 +22,7 @@ const Home = () => {
       setWisataData(wisata);
 
       // Fetch berita data
-      const berita = await fetchBeritaDataFromFirebase(); // Ganti dengan fungsi yang sesuai
+      const berita = await fetchBeritaDataFromFirebase(); // Ganti dengan fungsi sesuai
       setBeritaData(berita);
 
       // Extract unique categories
